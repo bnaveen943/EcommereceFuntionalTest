@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-02T13:47:57 IST" name="Suite" finished-at="2024-10-02T13:48:20 IST" duration-ms="23936">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationTest.loginErrorValidation()[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.ErrorValidationTest@339bf286]" name="loginErrorValidation" class="productsEcommerceTest.ExommerceFuntionalTest.ErrorValidationTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="purchase">
+        <method signature="BaseModelToTest.submitOrder(java.util.HashMap)[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest@40499e4f]" name="submitOrder" class="productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2024-10-02T13:47:57 IST" name="ErrorValidationTest" finished-at="2024-10-02T13:48:10 IST" duration-ms="13263">
+      <class name="productsEcommerceTest.ExommerceFuntionalTest.ErrorValidationTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.ErrorValidationTest@339bf286]" started-at="2024-10-02T13:47:57 IST" name="launchBrowser" finished-at="2024-10-02T13:48:01 IST" duration-ms="4215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.ErrorValidationTest@339bf286]" started-at="2024-10-02T13:48:01 IST" name="loginErrorValidation" finished-at="2024-10-02T13:48:02 IST" duration-ms="779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.ErrorValidationTest@339bf286]" started-at="2024-10-02T13:48:02 IST" name="tearDown" finished-at="2024-10-02T13:48:02 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.ErrorValidationTest@339bf286]" started-at="2024-10-02T13:48:02 IST" name="launchBrowser" finished-at="2024-10-02T13:48:06 IST" duration-ms="3986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="productErrorValidation()[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.ErrorValidationTest@339bf286]" started-at="2024-10-02T13:48:06 IST" name="productErrorValidation" finished-at="2024-10-02T13:48:09 IST" duration-ms="3434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.ErrorValidationTest@339bf286]" started-at="2024-10-02T13:48:09 IST" name="tearDown" finished-at="2024-10-02T13:48:10 IST" duration-ms="657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- productsEcommerceTest.ExommerceFuntionalTest.ErrorValidationTest -->
+    </test> <!-- ErrorValidationTest -->
+    <test started-at="2024-10-02T13:47:57 IST" name="BaseModelTest" finished-at="2024-10-02T13:48:20 IST" duration-ms="23936">
+      <class name="productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest@40499e4f]" started-at="2024-10-02T13:47:57 IST" name="launchBrowser" finished-at="2024-10-02T13:48:01 IST" duration-ms="4649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest@40499e4f]" started-at="2024-10-02T13:48:01 IST" name="submitOrder" data-provider="getData" finished-at="2024-10-02T13:48:07 IST" duration-ms="5136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=Canada, password=John@0071, email=john.aran@gmail.com, productName=ZARA COAT 3, key=ca}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest@40499e4f]" started-at="2024-10-02T13:48:07 IST" name="tearDown" finished-at="2024-10-02T13:48:07 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest@40499e4f]" started-at="2024-10-02T13:48:07 IST" name="launchBrowser" finished-at="2024-10-02T13:48:11 IST" duration-ms="4340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest@40499e4f]" started-at="2024-10-02T13:48:11 IST" name="submitOrder" data-provider="getData" finished-at="2024-10-02T13:48:15 IST" duration-ms="4337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=India, password=Naveen0071@, email=hnaveen@gmail.com, productName=ADIDAS ORIGINAL, key=Ind}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest@40499e4f]" started-at="2024-10-02T13:48:15 IST" name="tearDown" finished-at="2024-10-02T13:48:16 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest@40499e4f]" started-at="2024-10-02T13:48:16 IST" name="launchBrowser" finished-at="2024-10-02T13:48:19 IST" duration-ms="3832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="OrderHistoryPageTest()[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest@40499e4f]" started-at="2024-10-02T13:48:19 IST" name="OrderHistoryPageTest" finished-at="2024-10-02T13:48:20 IST" depends-on-methods="productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest.submitOrder" duration-ms="990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest@40499e4f]" started-at="2024-10-02T13:48:20 IST" name="tearDown" finished-at="2024-10-02T13:48:20 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest -->
+    </test> <!-- BaseModelTest -->
+  </suite> <!-- Suite -->
+</testng-results>
