@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+	<listeners>
+		<listener
+			class-name="productsEcommerceTest.BaseTestModelToLaunchBrowser.Listerners"></listener>
+
+	</listeners>
+
+	<test thread-count="5" name="BaseModelTest">
+		<classes>
+			<class
+				name="productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest" />
+		</classes>
+	</test> <!--
+	Test -->
+
+	<test thread-count="5" name="ErrorValidationTest">
+		<classes>
+			<class
+				name="productsEcommerceTest.ExommerceFuntionalTest.ErrorValidationTest" />
+		</classes>
+	</test> <!--
+	Test -->
+
+</suite> <!--
+Suite -->

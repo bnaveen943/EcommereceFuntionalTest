@@ -1,0 +1,34 @@
+package applicationTest.AbstractClassForWait;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.By.ByCssSelector;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class AbstractClassForCommanElement {
+	
+	WebDriver driver;
+	public AbstractClassForCommanElement(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+
+	
+	@FindBy(css = ".mb-3")
+	
+	// By.cssSelector(".mb-3")
+	By productLoad=By.cssSelector(".mb-3");
+	public void waitForElementToAppear(By findBy)
+	{
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(findBy));
+	}
+
+	
+	
+
+}

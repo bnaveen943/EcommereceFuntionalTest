@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.testng.reporters.jq.Main"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="org.apache.hc.core5.util.Asserts"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.locators.RelativeLocator"/>
+    <fullyQualifiedTypeName name="applicationTest.EcommerceApplication.LandingPage"/>
+    <fullyQualifiedTypeName name="applicationTest.AbstractClassForWait.AbstractClassForCommanElement"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By.ByCssSelector"/>
+    <fullyQualifiedTypeName name="applicationTest.EcommerceApplication.ProductCatalogPage"/>
+    <fullyQualifiedTypeName name="ecommerceApplicationTest.AbsractPackage.AbstractClassForCommanElements"/>
+    <fullyQualifiedTypeName name="io.github.bonigarcia.wdm.WebDriverManager"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
+    <fullyQualifiedTypeName name="productsEcommerceTest.ExommerceFuntionalTest.LoginPageTest"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+    <fullyQualifiedTypeName name="java.lang.AbstractMethodError"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
+    <fullyQualifiedTypeName name="java.time.Duration"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="productsEcommerceTest.ExommerceFuntionalTest.ProductCatalogPageTest"/>
+    <fullyQualifiedTypeName name="productsEcommerceTest.ExommerceFuntionalTest.MyCartPageTest"/>
+    <fullyQualifiedTypeName name="dev.failsafe.internal.util.Assert"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="productsEcommerceTest.AbstractMethodClass.AbstractClassMethod"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.interactions.Actions"/>
+    <fullyQualifiedTypeName name="java.lang.Byte"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.FindBy"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="org.testng.Assert"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.Dimension"/>
+</qualifiedTypeNameHistroy>

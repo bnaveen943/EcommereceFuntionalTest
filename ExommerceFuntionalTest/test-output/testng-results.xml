@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="1" total="7" passed="2" failed="2" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-29T20:06:58 IST" name="Suite" finished-at="2024-09-29T20:07:27 IST" duration-ms="29606">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationTest.loginErrorValidation()[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.ErrorValidationTest@38d5b107]" name="loginErrorValidation" class="productsEcommerceTest.ExommerceFuntionalTest.ErrorValidationTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="purchase">
+        <method signature="BaseModelToTest.submitOrder(java.util.HashMap)[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest@50b0bc4c]" name="submitOrder" class="productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2024-09-29T20:06:58 IST" name="ErrorValidationTest" finished-at="2024-09-29T20:07:27 IST" duration-ms="28994">
+      <class name="productsEcommerceTest.ExommerceFuntionalTest.ErrorValidationTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.ErrorValidationTest@38d5b107]" started-at="2024-09-29T20:06:58 IST" name="launchBrowser" finished-at="2024-09-29T20:07:11 IST" duration-ms="13688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method retried="true" signature="loginErrorValidation()[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.ErrorValidationTest@38d5b107]" started-at="2024-09-29T20:07:11 IST" name="loginErrorValidation" finished-at="2024-09-29T20:07:12 IST" duration-ms="493" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email or password]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email or password]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at productsEcommerceTest.ExommerceFuntionalTest.ErrorValidationTest.loginErrorValidation(ErrorValidationTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.ErrorValidationTest@38d5b107]" started-at="2024-09-29T20:07:12 IST" name="tearDown" finished-at="2024-09-29T20:07:12 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.ErrorValidationTest@38d5b107]" started-at="2024-09-29T20:07:12 IST" name="launchBrowser" finished-at="2024-09-29T20:07:17 IST" duration-ms="5571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.ErrorValidationTest@38d5b107]" started-at="2024-09-29T20:07:17 IST" name="loginErrorValidation" finished-at="2024-09-29T20:07:18 IST" duration-ms="773" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email or password]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email or password]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at productsEcommerceTest.ExommerceFuntionalTest.ErrorValidationTest.loginErrorValidation(ErrorValidationTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.ErrorValidationTest@38d5b107]" started-at="2024-09-29T20:07:19 IST" name="tearDown" finished-at="2024-09-29T20:07:19 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.ErrorValidationTest@38d5b107]" started-at="2024-09-29T20:07:19 IST" name="launchBrowser" finished-at="2024-09-29T20:07:23 IST" duration-ms="4255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="productErrorValidation()[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.ErrorValidationTest@38d5b107]" started-at="2024-09-29T20:07:23 IST" name="productErrorValidation" finished-at="2024-09-29T20:07:26 IST" duration-ms="3234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.ErrorValidationTest@38d5b107]" started-at="2024-09-29T20:07:26 IST" name="tearDown" finished-at="2024-09-29T20:07:27 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- productsEcommerceTest.ExommerceFuntionalTest.ErrorValidationTest -->
+    </test> <!-- ErrorValidationTest -->
+    <test started-at="2024-09-29T20:06:58 IST" name="BaseModelTest" finished-at="2024-09-29T20:07:27 IST" duration-ms="29606">
+      <class name="productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest@50b0bc4c]" started-at="2024-09-29T20:06:58 IST" name="launchBrowser" finished-at="2024-09-29T20:07:14 IST" duration-ms="15718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest@50b0bc4c]" started-at="2024-09-29T20:07:14 IST" name="submitOrder" data-provider="getData" finished-at="2024-09-29T20:07:18 IST" duration-ms="4355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=Canada, password=John@0071, email=john.aran@gmail.com, productName=ZARA COAT 3, key=ca}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest@50b0bc4c]" started-at="2024-09-29T20:07:18 IST" name="tearDown" finished-at="2024-09-29T20:07:18 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest@50b0bc4c]" started-at="2024-09-29T20:07:18 IST" name="launchBrowser" finished-at="2024-09-29T20:07:24 IST" duration-ms="5364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest@50b0bc4c]" started-at="2024-09-29T20:07:24 IST" name="submitOrder" data-provider="getData" finished-at="2024-09-29T20:07:27 IST" duration-ms="3145" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=India, password=Naveen0071@, email=hnaveen@gmail.com, productName=ADIDAS ORIGINAL, key=Ind}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest.submitOrder(BaseModelToTest.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest@50b0bc4c]" started-at="2024-09-29T20:07:27 IST" name="tearDown" finished-at="2024-09-29T20:07:27 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="OrderHistoryPageTest()[pri:0, instance:productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest@50b0bc4c]" started-at="2024-09-29T20:07:27 IST" name="OrderHistoryPageTest" finished-at="2024-09-29T20:07:27 IST" depends-on-methods="productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest.submitOrder" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest.OrderHistoryPageTest() on instance productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest@50b0bc4c depends on not successfully finished methods 
+[productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest.submitOrder() on instance productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest@50b0bc4c]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest.OrderHistoryPageTest() on instance productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest@50b0bc4c depends on not successfully finished methods 
+[productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest.submitOrder() on instance productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest@50b0bc4c]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryPageTest -->
+      </class> <!-- productsEcommerceTest.ExommerceFuntionalTest.BaseModelToTest -->
+    </test> <!-- BaseModelTest -->
+  </suite> <!-- Suite -->
+</testng-results>
