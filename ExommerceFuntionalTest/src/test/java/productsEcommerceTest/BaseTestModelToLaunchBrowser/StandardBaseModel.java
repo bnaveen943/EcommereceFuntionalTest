@@ -58,13 +58,15 @@ public class StandardBaseModel {
 			
 
 		}
-
+// Some comment to verify
 		
-		  if (browserName.equalsIgnoreCase("chrome")) {
-		  WebDriverManager.chromedriver().setup(); driver = new ChromeDriver();
-		  driver.manage().window().setSize(new Dimension(1440, 900));
-		  
-		  }
+		/*
+		 * if (browserName.equalsIgnoreCase("chrome")) {
+		 * WebDriverManager.chromedriver().setup(); driver = new ChromeDriver();
+		 * driver.manage().window().setSize(new Dimension(1440, 900));
+		 * 
+		 * }
+		 */
 		 
 		  else if (browserName.equalsIgnoreCase("fireFox")) {
 			// firefox
